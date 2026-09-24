@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Flamor';
+  src: url('./fonts/Flamor-FreeDemo.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* { scroll-behavior: smooth; }
+
+body {
+  background-color: #F3EEE2;
+  color: #17140F;
+}
+
+::selection {
+  background: #4C6C9C;
+  color: #F3EEE2;
+}
+
+*, *::before, *::after {
+  font-family: 'Flamor', sans-serif !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
