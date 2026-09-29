@@ -7,6 +7,7 @@ import Hero3DSection from './components/Hero3DSection'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
+import CraneSection from './components/CraneSection'
 
 export default function App() {
   const [introDone, setIntroDone] = useState(false)
@@ -19,6 +20,7 @@ export default function App() {
         <Hero />
         <About />
         <Hero3DSection />
+        <CraneSection />
         <Projects />
         <Skills />
         <Contact />
